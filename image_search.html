@@ -10,7 +10,7 @@
             <div class="p-4 d-flex justify-content-end">
                 <div class="p-2">
                     <!--Link to google image html-->
-                    <a href="image_search.html">Images</a>
+                    <a href="index.html">Google Search</a>
                 </div>
                 <div class="p-2">
                     <!--Link to google advanced search-->
@@ -22,21 +22,20 @@
         <div class="container">
             <!--First flexbox for the google image-->
             <div class="d-flex justify-content-center pt-5 pb-3">
-                <img src="Assets/Google for Pros.png" alt="Google for Pros">
+                <a href="index.html"><img src="Assets/Google Image Pro.png" alt="Google Image Pro"></a>
             </div>
-            
-            <div class="d-flex justify-content-center">
-                <form action="https://google.com/search">
-                    <div class="row">
-                        <input type="text" name="q" style="border-radius: 50px; width: 550px; height: 50px;">
-                        <input type="hidden" name="btnI" value="I'm Feeling Lucky">
-                    </div>
-                    <div class="d-flex mt-4 justify-content-center">
-                        <input type="submit" value="Google Search" class="btn btn-light">
-                        <input type="submit" value="I'm Feeling Lucky" class="btn btn-light">
-                    </div>
-                </form>
-            </div>
+
+                <div class="d-flex justify-content-center">
+                    <form action="https://google.com/search">
+                        <div class="row">
+                            <input type="text" name="q" style="border-radius: 50px; width: 550px; height: 50px;">
+                            <input type="hidden" name="tbm" value="isch">
+                        </div>
+                        <div class="d-flex mt-4 justify-content-center">
+                            <input type="submit" value="Image Search" class="btn btn-light">
+                        </div>
+                    </form>
+                </div>
         </div>
     </body>
 </html>
